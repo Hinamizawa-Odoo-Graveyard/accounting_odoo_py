@@ -3,7 +3,7 @@ from odoo import models, fields, api
 
 class Accounting (models.Model):
     _name = "accounting.odoo"
-    _description = "Accounting info"
+    _description = 'Accounting info'
 
 
 name = fields.Char(sting='Title', required=True)
