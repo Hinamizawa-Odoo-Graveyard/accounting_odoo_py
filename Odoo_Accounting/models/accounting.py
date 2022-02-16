@@ -1,9 +1,4 @@
 from odoo import models, fields, api, tools
-from odoo.exceptions import Warning
-from odoo.exceptions import ValidationError
-from odoo import tools
-import string
-from odoo.tools import float_compare
 
 
 class Accounting (models.Model):
