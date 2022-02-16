@@ -1,9 +1,14 @@
-from odoo import models, fields, api
+from odoo import models, fields, api, tools
+from odoo.exceptions import Warning
+from odoo.exceptions import ValidationError
+from odoo import tools
+import string
+from odoo.tools import float_compare
 
 
 class Accounting (models.Model):
     _name = "accounting.odoo"
-    _description = 'Accounting info'
+    _description = "Accounting info"
 
 
 name = fields.Char(sting='Title', required=True)
