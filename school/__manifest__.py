@@ -19,7 +19,7 @@
     'depends': ['base'],
 
     'data': [
-        "views/school_view.xml"
+        'views/school_view.xml'
 
     ],
     'demo': [
