@@ -2,24 +2,24 @@
 {
     'name': 'Odoo School',
 
-    'summary': """App to do simple accounting """,
+    'summary': """App to do schooling management """,
 
     'description': """
-        training for school
+        A school management profile for the users
     
     """,
     'author': 'Hinamizawa',
 
     'website': 'https://www.odoo.com',
 
-    'category': 'Training',
+    'category': 'Profile Management',
 
-    'version': '0.1',
+    'version': '14.0.0',
 
     'depends': ['base'],
 
     'data': [
-
+        "views/school_view.xml"
 
     ],
     'demo': [
