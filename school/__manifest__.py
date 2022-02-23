@@ -13,10 +13,11 @@
     'website': 'https://www.odoo.com',
 
     'category': 'Profile Management',
+    'company': 'SMART-OBC',
 
     'version': '14.0.0',
 
-    'depends': ['base'],
+    'depends': ['base', 'Odoo School'],
 
     'data': [
         'views/school_view.xml'
