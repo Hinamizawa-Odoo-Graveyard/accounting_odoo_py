@@ -9,5 +9,6 @@
             <field name="email"/>
             <field name="phone"/>
         </tree>
+    </field>
     </record>
 </odoo>
