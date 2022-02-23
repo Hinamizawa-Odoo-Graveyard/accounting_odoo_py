@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Odoo Accounting',
+    'name': 'Odoo School',
 
     'summary': """App to do simple accounting """,
 
     'description': """
-        Accounting Module
-        - Profit and Loss
-        - Multiple Categories of product
-        - Interactive
+        training for school
     
     """,
     'author': 'Hinamizawa',
